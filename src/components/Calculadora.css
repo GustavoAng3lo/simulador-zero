@@ -1,0 +1,148 @@
+/* src/components/Calculadora.css */
+
+.betpopov-container {
+  background-color: #121212;
+  padding: 25px;
+  border-radius: 12px;
+  width: 380px;
+  border: 1px solid #333;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.7);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.betpopov-header {
+  color: #00e676;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+.input-section {
+  margin-bottom: 15px;
+}
+
+.input-label {
+  display: block;
+  font-size: 0.75rem;
+  color: #888;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background-color: #1e1e1e;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #00e676;
+}
+
+.results-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.result-card {
+  flex: 1;
+  border-radius: 8px;
+  padding: 15px 5px;
+  text-align: center;
+}
+
+.card-green {
+  background-color: rgba(0, 230, 118, 0.1);
+  border: 1px solid #00e676;
+}
+
+.card-red {
+  background-color: rgba(239, 68, 68, 0.1);
+  border: 1px solid #ef4444;
+}
+
+.result-header {
+  font-size: 0.7rem;
+  margin-bottom: 5px;
+  color: #ccc;
+}
+
+.result-value {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.green-text { color: #00e676; }
+.red-text { color: #ef4444; }
+
+/* Botões */
+.btn-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn-confirmar {
+  flex: 2;
+  padding: 12px;
+  background-color: #00e676;
+  border: none;
+  border-radius: 6px;
+  color: black;
+  font-weight: 900;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn-reset {
+  flex: 1;
+  padding: 12px;
+  background-color: #ef4444;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn-confirmar:hover, .btn-reset:hover {
+  filter: brightness(1.2);
+}
+
+/* Histórico */
+.historico-section {
+  margin-top: 25px;
+  border-top: 1px solid #333;
+  padding-top: 15px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.historico-title {
+  font-size: 0.8rem;
+  color: #00e676;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.historico-item {
+  background-color: #1a1a1a;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  border-left: 3px solid #00e676;
+}
